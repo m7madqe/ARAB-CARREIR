@@ -1,0 +1,495 @@
+ *{
+   margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+ }
+    
+ header{
+    background-color: #199af6;
+    width: 100%;
+     position: fixed;
+     z-index: 999;
+     display: flex;
+justify-content: space-between;
+align-self: start;
+padding: 10px 20px;
+ }
+ .logo{
+   text-decoration: none;
+color:#f5deb3 ;
+text-transform: uppercase;
+font-weight: 700;
+ font-size: 1.5em;
+ 
+ }
+    .navbar a{
+     color: #f5deb3;
+     text-decoration: none;
+     font-size: 1.1em;
+        font-weight: 500;
+        padding-left: 30px;
+     
+    }
+    .navbar a:hover{
+        color: #0c0800;
+        text-decoration: underline;
+    }
+    section{
+        padding:100px 200px;
+    }
+    .main{
+        
+        width:100%;
+        min-height: 100vh;
+        display: flex;
+        align-items:center ;
+        background: url(images/bakgrund.jpeg ) no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+       
+
+
+    }
+    .main h2{
+        
+        color: #000407;
+        font-size: 1.4em;
+        font-weight:500;
+    }
+    .main h2 span{
+        display: inline-block;
+        margin-top: 10px;
+        color: #0b02fc;
+        font-size: 3em;
+        font-weight: 600;
+
+    }
+    main h3{
+     font-size: 2.5em; 
+     font-weight: 7000;  
+     letter-spacing: 1px;
+     margin-top: 10px; 
+     margin-bottom: 30px;
+    }
+    .main-btn{
+        background-color: white;
+        color:black;
+        text-decoration: none;
+        font-size: 1.1em;
+        font-weight: 800;
+        display: inline-block;
+        padding: 0.9375em 2.1875em;
+        letter-spacing: 1px;
+        border-radius: 15px;
+        margin-bottom: 40px;
+        transition: 0.7s ease;
+    }
+    .main-btn:hover{
+        background-color: #0b02fc;
+        color: white;
+        transition: scale(1.1);
+    }
+    .title{
+       display: flex;
+       justify-content: center;
+       color: #199af6;
+       font-size: 2.2em;
+       font-weight: 700;
+    margin-bottom: 30px;
+    
+    }
+    .content{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+        
+    }
+    .card{
+        
+        flex: 1 1 250px;
+        background-color: aqua;
+        width: 300px;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+        padding: 20px;
+        margin: 10px;
+        transition: transform 0.7s ease;
+
+
+    }
+    .card:hover{
+        transform: scale(1.05);
+    }
+    .icon{
+        font-size: 8em;
+        color: #0b02fc;
+
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .info h3{
+        color: #0b02fc;
+        font-size: 2em;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    .info p{
+        color: #000407;
+        font-size: 1.2em;
+        font-weight:600;
+      margin-bottom: 20px;
+    }
+    .about-as{
+        background-color: #72e9fb;
+        width: 50%;
+        margin: 0 auto;
+        border-radius: 10px;
+        box-shadow: 0 5px 25px rgba(1, 1,1, 15%);
+       
+        text-align: center;
+        padding: 50px 0;
+        box-sizing: content-box;
+        color: #000407;
+        padding: 50px 0;
+    }
+    .about-as h2{
+        color: #0b02fc;
+        font-size: 2.5em;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    .about-as p{
+        font-size: 1.2em;
+        font-weight: 650;
+        margin-bottom: 20px;
+        padding: 0 20px;
+    }
+    .contact{
+        background-color: #72e9fb;
+      
+        
+        border-radius: 10px;
+        box-shadow: 0 5px 25px rgba(1, 1,1, 15%);
+        text-align: center;
+        padding: 50px 0;
+        box-sizing: content-box;
+        color: #000407;
+    }
+    .contact h2{
+        color: #0b02fc;
+        font-size: 2.5em;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    .contact p{
+        font-size: 1.2em;
+        font-weight: 650;
+        margin-bottom: 20px;
+        padding: 0 20px;
+    }
+    .contact form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer{
+        background-color: #199af6;
+        color: #f5deb3;
+        text-align: center; 
+        padding: 20px 0;
+    
+        position: relative;
+        bottom: 0;  
+        width: 100%;
+    }
+    .card img{
+        width: 100%;
+        display: flex;
+        gap: 0;
+        height:     200px;
+        border-radius: 10px;
+        box-shadow: 0 5px 25px rgba(1, 1,1, 15%);
+        object-fit: cover;
+        flex-wrap: nowrap;
+    
+        margin-bottom: 20px;
+
+    }
+    .card h3{
+        color: #0b02fc;
+        font-size: 1.5em;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    .card p{
+        color: #000407;
+        font-size: 1.1em;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+    .card:hover{
+        transform: scale(1.05);
+    }
+    .card:hover img{
+        transform: scale(1.1);
+        transition: transform 0.5s ease;
+    }   
+    .card:hover h3{
+        color: #0b02fc;
+        transition: color 0.5s ease;
+    }
+    .card:hover p{
+        color: #000407;
+        transition: color 0.5s ease;
+    }
+    .card:hover .icon{
+        color: #0b02fc;
+        transition: color 0.5s ease;
+    }
+    .card:hover .info h3{
+        color: #0b02fc;
+        transition: color 0.5s ease;
+    }
+    .card:hover .info p{
+        color: #000407;
+        transition: color 0.5s ease;
+    }
+    .card:hover .info{
+        transform: scale(1.05);
+        transition: transform 0.5s ease;
+    }
+    .card:hover .icon{
+        transform: scale(1.1);
+        transition: transform 0.5s ease;
+    }
+    .card:hover img{
+        transform: scale(1.1);
+        transition: transform 0.5s ease;
+    }
+    .card:hover h3{
+        color: #0b02fc;
+        transition: color 0.5s ease;
+    }
+    .card:hover p{
+        color: #000407;
+        transition: color 0.5s ease;
+    }
+    .card:hover .icon{
+        color: #0b02fc;
+        transition: color 0.5s ease;
+    }
+    .card:hover .info h3{
+        color: #0b02fc;
+        transition: color 0.5s ease;
+    }
+    .card:hover .info p{
+        color: #000407;
+        transition: color 0.5s ease;
+    }
+    .card:hover .info{
+        transform: scale(1.05);
+        transition: transform 0.5s ease;
+    }
+    .card:hover .icon{
+        transform: scale(1.1);
+        transition: transform 0.5s ease;
+    }
+    .card:hover img{
+        transform: scale(1.1);
+        transition: transform 0.5s ease;
+    }
+    .card:hover h3{
+        color: #0b02fc;
+        transition: color 0.5s ease;
+    }
+    .card:hover p{
+        color: #000407;
+        transition: color 0.5s ease;
+    }
+    .card:hover .icon{
+        color: #0b02fc;
+        transition: color 0.5s ease;
+    }
+    .card:hover .info h3{
+        color: #0b02fc;
+        transition: color 0.5s ease;
+    }
+    .card:hover .info p{
+        color: #000407;
+        transition: color 0.5s ease;
+    }
+    .card:hover .info{
+        transform: scale(1.05);
+        transition: transform 0.5s ease;
+    }
+    .card:hover .icon{
+        transform: scale(1.1);
+        transition: transform 0.5s ease;
+    }
+    .card:hover img{
+        transform: scale(1.1);
+        transition: transform 0.5s ease;
+    }
+    .card:hover h3{
+        color: #0b02fc;
+        transition: color 0.5s ease;
+    }
+    .card:hover p{
+        color: #000407;
+        transition: color 0.5s ease;
+    }
+    .card:hover .icon{
+        color: #0b02fc;
+        transition: color 0.5s ease;
+    }
+    .card:hover .info h3{
+        color: #0b02fc;
+        transition: color 0.5s ease;
+    }
+    .card:hover .info p{
+        color: #000407;
+        transition: color 0.5s ease;
+    }
+    .card:hover .info{
+        transform: scale(1.05);
+        transition: transform 0.5s ease;
+    }
+    .card:hover .icon{
+        transform: scale(1.1);
+        transition: transform 0.5s ease;
+    }
+    .card:hover img{
+        transform: scale(1.1);
+        transition: transform 0.5s ease;
+    }
+    .card:hover h3{
+        color: #0b02fc;
+        transition: color 0.5s ease;
+    }
+    .card:hover p{
+        color: #000407;
+        transition: color 0.5s ease;
+    }
+    .card:hover .icon{
+        color: #0b02fc;
+        transition: color 0.5s ease;
+    }
+    .card:hover .info h3{
+        color: #0b02fc;
+        transition: color 0.5s ease;
+    }
+    .card:hover .info p{
+        color: #000407;
+        transition: color 0.5s ease;
+    }
+    .card:hover .info{
+        transform: scale(1.05);
+        transition: transform 0.5s ease;
+    }
+    .card:hover .icon{
+        transform: scale(1.1);
+        transition: transform 0.5s ease;
+    }
+
+
+ 
+
+@media (max-width:1023px){
+    header{
+        padding: 12px 20px;
+    }
+
+    .navigation a{
+        padding-left: 10px;
+    }
+
+    .title{
+        font-size: 1.8em;
+    }
+
+    section{
+        padding: 80px 20px;
+    }
+
+    .main-content h2{
+        font-size: 1em;
+    }
+
+    .main-content h3{
+        font-size: 1.6em;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (max-width:641px){
+    body{
+        font-size: 12px;
+    }
+
+    .main-content h2{
+        font-size: 0.8em;
+    }
+
+    .main-content h3{
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width:300px){
+    body{
+        font-size: 10px;
+     
+    }
+}
+    .main-content h2{
+        font-size: 0.6em;
+    }
+
+    .main-content h3{
+        font-size: 1.2em;
+    } 
+    .main-content h2{
+        font-size: 0.6em;
+    }
+
+    .main-content h3{
+        font-size: 1.2em;
+    }
+    .card:hover img{
+        transform: scale(1.1);
+        transition: transform 0.5s ease;
+    }
+    .card:hover h3{
+        color: #0b02fc;
+        transition: color 0.5s ease;
+    }
+    .card:hover p{
+        color: #000407;
+        transition: color 0.5s ease;
+    }
+    .card:hover .icon{
+        color: #0b02fc;
+        transition: color 0.5s ease;
+    }
+    .card:hover .info h3{
+        color: #0b02fc;
+        transition: color 0.5s ease;
+    }
+    .card:hover .info p{
+        color: #000407;
+        transition: color 0.5s ease;
+    }
+    .card:hover .info{
+        transform: scale(1.05);
+        transition: transform 0.5s ease;
+    }
